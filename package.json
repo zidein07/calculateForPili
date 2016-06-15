@@ -1,0 +1,23 @@
+{
+  "name": "calculate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zidein07/calculateForPili.git"
+  },
+  "author": "Pili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zidein07/calculateForPili/issues"
+  },
+  "homepage": "https://github.com/zidein07/calculateForPili#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1"
+  }
+}

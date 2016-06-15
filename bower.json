@@ -1,0 +1,22 @@
+{
+  "name": "calculateForPili",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zidein07/calculateForPili",
+  "authors": [
+    "zidein07 <zidein07@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.0.0",
+    "lodash": "~4.13.1"
+  }
+}
+
