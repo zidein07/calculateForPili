@@ -15,8 +15,8 @@
     "tests"
   ],
   "dependencies": {
+    "bootstrap": "~3.3.6",
     "jquery": "~3.0.0",
     "lodash": "~4.13.1"
   }
 }
-
