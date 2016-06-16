@@ -4,12 +4,17 @@ var allTask = {
     subtraction: $('#subtraction'),
     multiplication: $('#multiplication'),
     division: $('#division'),
-    labelToo: $('#labelToo'),
-    answer: $('#answer'),
-    logicalAnswer: $('#logicalAnswer')
+    labelTwo: $('#labelTwo'),
+    logicalAnswer: $('#logicalAnswer'),
+    compute: $('#compute')
 };
 
-allTask.answer.on('click', function () {
-   var writeTextFotInputOne = allTask.labelOne.val().length;
-   var writeTextFotInputToo = allTask.labelToo.val().length;
+allTask.logicalAnswer.on('click', function () {
+    var answer = allTask.logicalAnswer.val();
+    var writeTextForInputOne = allTask.labelOne.val();
+    var writeTextForInputTwo = allTask.labelTwo.val();
+
+    if (writeTextForInputOne === '' && writeTextForInputTwo === '' || writeTextForInputOne >= 16 && writeTextForInputTwo >= 16) {
+        
+    }
 });
