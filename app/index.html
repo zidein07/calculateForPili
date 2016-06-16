@@ -2,10 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Calculate</title>
     <link rel="stylesheet" href="stylesheet/css/main.css">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
+
+<div class="container" align="center">
+    <div class="col-xs-6 col-xs-offset-3">
+        <h1 class="style">Calculate</h1>
+        <input type="text" class="form-control style" id="labelOne" placeholder="Введите латинскую цифру">
+        <button type="button" class="btn btn-primary style" id="addition">+</button>
+        <button type="button" class="btn btn-primary style" id="subtraction">-</button>
+        <button type="button" class="btn btn-primary style" id="multiplication">*</button>
+        <button type="button" class="btn btn-primary style" id="division">/</button>
+        <input type="text" class="form-control style" id="labelToo" placeholder="Введите латинскую цифру">
+        <input type="text" class="form-control style" id="logicalAnswer" disabled placeholder="Ответ">
+    </div>
+</div>
 
 <script src="vendor/jquery/dist/jquery.min.js"></script>
 <script src="vendor/lodash/dist/lodash.min.js"></script>
